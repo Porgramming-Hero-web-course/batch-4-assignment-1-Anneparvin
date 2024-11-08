@@ -6,5 +6,5 @@
         const regex = new RegExp(`\\b${word}\\b`, "gi");
         return (sentence.match(regex) || []).length;
     }
-    console.log(countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript"));
+    console.log(countWordOccurrences("I love typescript", "typescript"));
 }
